@@ -7,7 +7,8 @@ services:
     ports:
       - "9109:9109"
     environment:
-      TUYA_ACCESS_ID: "xxxx"
-      TUYA_ACCESS_SECRET: "yyyy"
-      TUYA_ENDPOINT: ""
+      TUYA_ACCESS_ID: "3jp9pupyd4uy3rf3t7wr"
+      TUYA_ACCESS_SECRET: "74d3222c33f245a4958d5bf019eec35a"
+      TUYA_ENDPOINT: "https://openapi.tuya.com"
     restart: unless-stopped
+
