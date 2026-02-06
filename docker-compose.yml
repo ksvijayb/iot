@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  tuya-exporter:
+    build: ./tuya-exporter
+    container_name: tuya-exporter
+    ports:
+      - "9109:9109"
+    environment:
+      TUYA_ACCESS_ID: "xxxx"
+      TUYA_ACCESS_SECRET: "yyyy"
+      TUYA_ENDPOINT: ""
+    restart: unless-stopped
