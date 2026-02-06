@@ -9,6 +9,7 @@ services:
     environment:
       TUYA_ACCESS_ID: "3jp9pupyd4uy3rf3t7wr"
       TUYA_ACCESS_SECRET: "74d3222c33f245a4958d5bf019eec35a"
-      TUYA_ENDPOINT: "https://openapi.tuya.com"
+      TUYA_ENDPOINT: "https://openapi.tuyain.com"
     restart: unless-stopped
+
 
